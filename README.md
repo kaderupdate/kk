@@ -1,23 +1,82 @@
-# KK-Facility-Management Website
+# KK-Facility-Management
 
-Eine moderne, responsive Website für Facility Management Dienstleistungen in Münster.
+Moderne Website für Facility Management Services in Münster.
 
-## Features
+## 🚀 Live Website
 
-✨ **Modernes Design**
-- Responsives Design für alle Geräte
-- Moderne Farbpalette und Typography
-- Smooth Scrolling und Animationen
-- Glasmorphism-Effekte
+Die Website ist live verfügbar unter: [Render URL wird nach Deployment angezeigt]
 
-🚀 **Performance**
-- Node.js Backend mit Express
-- Optimierte Ladezeiten
-- Progressive Enhancement
-- SEO-optimiert
+## 📋 Features
 
-📱 **Benutzerfreundlichkeit**
-- Intuitive Navigation
+- ✅ Responsive Design
+- ✅ WhatsApp Business Integration
+- ✅ SEO-Optimierung für lokale Suche
+- ✅ Anfrageformular
+- ✅ 8 Facility Management Services
+- ✅ Münster-lokalisiert
+
+## 🛠 Tech Stack
+
+- **Backend:** Node.js + Express
+- **Frontend:** EJS Templates, Vanilla CSS/JS
+- **Email:** Nodemailer Integration
+- **Hosting:** Render.com
+
+## 🔧 Installation & Local Development
+
+```bash
+# Repository klonen
+git clone https://github.com/kaderupdate/kk.git
+cd kk
+
+# Dependencies installieren
+npm install
+
+# Entwicklungsserver starten
+npm run dev
+
+# Production Server starten
+npm start
+```
+
+Die Website läuft dann auf `http://localhost:3000`
+
+## 📧 Umgebungsvariablen
+
+Erstelle eine `.env` Datei basierend auf `.env.example`:
+
+```env
+EMAIL_USER=deine-email@gmail.com
+EMAIL_PASS=dein-app-passwort
+PORT=3000
+```
+
+## 🚀 Deployment auf Render
+
+1. GitHub Repository mit Render verbinden
+2. Automatisches Deployment über `render.yaml`
+3. Umgebungsvariablen in Render Dashboard setzen
+
+## 🎯 Services
+
+- Treppenhausreinigung
+- Objektpflege & Beratung  
+- Objektüberwachung
+- Gartenpflege & Grünflächenpflege
+- Mülldienst & Entsorgung
+- Mieterwechsel Service
+- Entrümpelung
+- Energieberatung Vermittlung
+
+## � Kontakt
+
+- **WhatsApp Business:** 0251 / 123 45678
+- **Email:** info@kk-facility.de
+- **Servicegebiet:** Münster & Umgebung
+
+## 📄 Lizenz
+
+MIT License
 - Klare Service-Übersicht
 - Kontaktformular mit Validierung
 - Mobile-First Ansatz
